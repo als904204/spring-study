@@ -1,6 +1,6 @@
 package com.study.springstudy.springSecurity.securityBasic;
 
-import com.study.springstudy.springSecurity.securityContextHolder.SecurityContextHolderFilter;
+import com.study.springstudy.springSecurity.authentication.securityContextHolder.SecurityContextHolderFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

@@ -1,4 +1,4 @@
-package com.study.springstudy.springSecurity.securityContextHolder;
+package com.study.springstudy.springSecurity.authentication.securityContextHolder;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
