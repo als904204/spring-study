@@ -3,6 +3,6 @@
 ---
 
 
-| 제목                            | 링크     | 순서                                                               |
-|-------------------------------|--------|------------------------------------------------------------------|
-| Spring Security ContextHolder | [dd]  (../../securityContextHolder/contextHolder.md) |  1. securityBasic <br/>2. authentication<br/>3. UsernamePassword |
+| 제목                               | 링크                                                              | 순서 |
+|----------------------------------|-----------------------------------------------------------------|----|
+| 1. Spring Security ContextHolder | [SecurityContextHolder](securityContextHolder/contextHolder.md) | 1  |
