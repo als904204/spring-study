@@ -1,6 +1,7 @@
-package com.study.springstudy.springSecurity.securityBasic;
+package com.study.springstudy.springSecurity;
 
 import com.study.springstudy.springSecurity.authentication.securityContextHolder.SecurityContextHolderFilter;
+import com.study.springstudy.springSecurity.securityBasic.BasicFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -10,7 +11,7 @@ import org.springframework.security.web.access.intercept.AuthorizationFilter;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityBasic {
+public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
