@@ -1,5 +1,7 @@
 # SecurityContextHolder
 ![img.png](img.png)
+
+
 SecurityContextHolder 는 Spring Security 에서 인증(authenticated)된 사용자의 정보를 저장한다.
 그리고 Spring Security 는 SecurityContextHolder 에 뭐가 있는지 상관하지 않는다. 만약 SecurityContextHolder 안에 값이 채워져 있을 경우 그 값을 현재 사용자로 인식한다.
 ---
