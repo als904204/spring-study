@@ -1,5 +1,6 @@
 package com.study.springstudy.springSecurity.securityBasic;
 
+import com.study.springstudy.springSecurity.securityContextHolder.SecurityContextHolderFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -17,8 +18,8 @@ public class SecurityBasic {
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/**").permitAll()
                 )
-                .addFilterBefore(new MyCustomFilter(), AuthorizationFilter.class);
-
+                .addFilterBefore(new BasicFilter(), AuthorizationFilter.class)
+                .addFilterBefore(new SecurityContextHolderFilter(), BasicFilter.class);
 
 
         return http.build();

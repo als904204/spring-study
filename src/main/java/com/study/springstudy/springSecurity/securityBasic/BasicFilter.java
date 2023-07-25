@@ -14,7 +14,7 @@ import java.io.IOException;
 @Slf4j
 
 @Component
-public class MyCustomFilter extends OncePerRequestFilter {
+public class BasicFilter extends OncePerRequestFilter {
 
 
     @Override
